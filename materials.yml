@@ -108,3 +108,12 @@
   lectures: /lectures/lecture_20.pdf
   notes_1group: /notes/class_20_group1.pdf
   notes_2group: /notes/class_20_group2.pdf
+
+- title: Тестирование статистических гипотез I.
+  number: 21
+  lectures: /lectures/lecture_21.pdf
+  download:
+    - label: 🚀 Colab (EN)
+      url: https://colab.research.google.com/github/glkarpov/ptms_mds_hse_26/blob/main/notebooks/hyp_test_tutorial.ipynb
+    - label: 🚀 Colab (RU)
+      url: https://colab.research.google.com/github/glkarpov/ptms_mds_hse_26/blob/main/notebooks/hyp_test_tutorial_ru.ipynb
