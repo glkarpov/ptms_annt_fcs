@@ -117,3 +117,7 @@
       url: https://colab.research.google.com/github/glkarpov/ptms_mds_hse_26/blob/main/notebooks/hyp_test_tutorial.ipynb
     - label: 🚀 Colab (RU)
       url: https://colab.research.google.com/github/glkarpov/ptms_mds_hse_26/blob/main/notebooks/hyp_test_tutorial_ru.ipynb
+
+- title: Тестирование статистических гипотез II.
+  number: 22
+  lectures: /lectures/lecture_22.pdf
