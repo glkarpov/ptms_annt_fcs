@@ -1,14 +1,14 @@
-- name: Глеб Карпов
-  role: Лектор
+- name: Gleb Karpov
+  role: Lecturer
 
-- name: София Гафарова
-  role: Ассистент
+- name: Sofia Gafarova
+  role: Teaching assistant
 
-- name: София Гизатуллина
-  role: Ассистент
+- name: Sofia Gizatullina
+  role: Teaching assistant
 
-- name: Андрей Прохоров
-  role: Ассистент
+- name: Andrei Prokhorov
+  role: Teaching assistant
 
-- name: Дмитрий Александров
-  role: Ассистент
+- name: Dmitry Alexandrov
+  role: Teaching assistant

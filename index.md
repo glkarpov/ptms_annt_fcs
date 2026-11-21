@@ -1,16 +1,17 @@
 ---
-title: Теория вероятностей и математическая статистика
-listing:
-  - id: team
-    contents: 
-      - team.yml
-    template: team_listing_template.ejs
+title: Probability Theory and Mathematical Statistics
+# listing:
+#   - id: team
+#     contents:
+#       - team.yml
+#     template: team_listing_template.ejs
 ---
 
+- [Lectures](program.md)
+- [Problem sets](homework.md)
+
+<!-- To show the team listing on the home page: uncomment the listing above and the block below
 # Team
 :::{#team}
 :::
-
-# Материалы
-
-[📚 Перейти к материалам курса](program.md)
+-->

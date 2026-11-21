@@ -1,12 +1,18 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.md"
+    - "!notebooks/**"
+    - "!atoms/**"
   resources: 
     - "*.mp4"
     - "*.txt"
     - "*.csv"
+    - "assignments/*.pdf"
+    - "CNAME"
 
-lang: ru
+lang: en
 
 execute:
   freeze: auto
@@ -15,7 +21,7 @@ filters:
   - course
 
 website:
-  repo-url: https://github.com/glkarpov/ptms_mds_hse_26
+  repo-url: https://github.com/glkarpov/ptms_annt_fcs
   repo-branch: main
   repo-actions: [edit]
   search: 
