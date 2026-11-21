@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ptms-mds-26.glebkarpov.com/notebooks/hyp_test_tutorial_ru.html</loc>
-    <lastmod>2026-06-06T10:33:28.995Z</lastmod>
+    <loc>https://ptms-fcs.edu.glebkarpov.com/program.html</loc>
+    <lastmod>2026-11-21T13:43:27.135Z</lastmod>
   </url>
   <url>
-    <loc>https://ptms-mds-26.glebkarpov.com/notebooks/hyp_test_tutorial.html</loc>
-    <lastmod>2026-06-03T15:37:10.980Z</lastmod>
+    <loc>https://ptms-fcs.edu.glebkarpov.com/homework.html</loc>
+    <lastmod>2026-11-21T13:43:27.754Z</lastmod>
   </url>
   <url>
-    <loc>https://ptms-mds-26.glebkarpov.com/notebooks/crv_animation.html</loc>
-    <lastmod>2025-10-03T12:27:58.932Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ptms-mds-26.glebkarpov.com/notebooks/sampling_distribution.html</loc>
-    <lastmod>2026-04-28T22:22:13.507Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ptms-mds-26.glebkarpov.com/index.html</loc>
-    <lastmod>2026-01-16T18:25:20.337Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ptms-mds-26.glebkarpov.com/program.html</loc>
-    <lastmod>2026-04-23T20:13:39.478Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ptms-mds-26.glebkarpov.com/notebooks/confidence_intervals_MC_sim_ru.html</loc>
-    <lastmod>2026-06-03T14:14:43.205Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ptms-mds-26.glebkarpov.com/notebooks/clt_tutorial.html</loc>
-    <lastmod>2026-04-21T17:12:29.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ptms-mds-26.glebkarpov.com/notebooks/confidence_intervals_MC_sim.html</loc>
-    <lastmod>2026-06-05T16:07:27.533Z</lastmod>
+    <loc>https://ptms-fcs.edu.glebkarpov.com/index.html</loc>
+    <lastmod>2026-11-21T13:43:26.532Z</lastmod>
   </url>
 </urlset>

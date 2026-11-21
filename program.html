@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.33">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>📚 Материалы</title>
+<title>Lectures</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -55,17 +55,17 @@ ul.task-list li input[type="checkbox"] {
     "s"
   ],
   "language": {
-    "search-no-results-text": "Поиск не дал результатов",
-    "search-matching-documents-text": "Результаты поиска",
-    "search-copy-link-title": "Скопировать ссылку",
-    "search-hide-matches-text": "Скрыть дополнительные результаты",
-    "search-more-match-text": "дополнительный результат в этом документе",
-    "search-more-matches-text": "дополнительных результата(-ов) в этом документе",
-    "search-clear-button-title": "Очистить",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Отменить",
-    "search-submit-button-title": "Найти",
-    "search-label": "Поиск"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -78,69 +78,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-number','listing-lectures','listing-notes','listing-notes_1group','listing-notes_2group','listing-download',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-number","listing-lectures","listing-notes","listing-notes_1group","listing-notes_2group","listing-download"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-materials'] = new List('listing-materials', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-consultations .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-number','listing-lectures','listing-notes',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-number","listing-lectures","listing-notes"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-consultations'] = new List('listing-consultations', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-homework .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-number','listing-problem_sets_review','listing-problem_sets',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-number","listing-problem_sets_review","listing-problem_sets"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-homework'] = new List('listing-homework', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -185,8 +129,8 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="custom.css">
-<meta property="og:title" content="📚 Материалы">
-<meta name="twitter:title" content="📚 Материалы">
+<meta property="og:title" content="Lectures">
+<meta name="twitter:title" content="Lectures">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -203,7 +147,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">📚 Материалы</h1>
+<h1 class="title">Lectures</h1>
 </div>
 
 
@@ -220,207 +164,16 @@ window.Quarto = {
 </header>
 
 
+<section id="lectures" class="level2">
+<h2 class="anchored" data-anchor-id="lectures">Lectures</h2>
 <div id="listing-materials" class="quarto-listing quarto-listing-container-custom">
 
-    <h3 class="anchored">Занятие 1</h3>
-    <p>
-        <a href="./lectures/lecture_1.pdf">📄 Презентация</a> • <a href="./notes/notes_class_1.pdf">📝 Заметки</a>
-    </p>
-    <p>Вероятностное пространство. Аксиоматическое определение вероятности.</p>
-
-    <h3 class="anchored">Занятие 2</h3>
-    <p>
-        <a href="./lectures/lecture_2.pdf">📄 Презентация</a> • <a href="./notes/class_2_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_2_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Классическая вероятность. Комбинаторные методы.</p>
-
-    <h3 class="anchored">Занятие 3</h3>
-    <p>
-        <a href="./lectures/lecture_3.pdf">📄 Презентация</a> • <a href="./notes/notes_class_3.pdf">📝 Заметки</a>
-    </p>
-    <p>Условная вероятность. Независимость событий.</p>
-
-    <h3 class="anchored">Занятие 4</h3>
-    <p>
-        <a href="./notes/notes_class_4.pdf">📝 Заметки</a>
-    </p>
-    <p>Полная вероятность. Теорема Байеса.</p>
-
-    <h3 class="anchored">Занятие 5</h3>
-    <p>
-        <a href="./notes/class_5_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_5_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Полная вероятность. Теорема Байеса. Практическая сессия.</p>
-
-    <h3 class="anchored">Занятие 6</h3>
-    <p>
-        <a href="./lectures/lecture_6.pdf">📄 Презентация</a> • <a href="./notes/class_6_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_6_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Концепция случайной величины. Дискретные случайные величины.</p>
-
-    <h3 class="anchored">Занятие 7</h3>
-    <p>
-        <a href="./lectures/lecture_7.pdf">📄 Презентация</a> • <a href="./notes/notes_class_7.pdf">📝 Заметки</a>
-    </p>
-    <p>Характеристики случайных величин. Биномиальное распределение.</p>
-
-    <h3 class="anchored">Занятие 8</h3>
-    <p>
-        <a href="./lectures/lecture_8.pdf">📄 Презентация</a> • <a href="./notes/class_8_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_8_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Случайные величины. Биномиальное распределение. Практическая сессия.</p>
-
-    <h3 class="anchored">Занятие 9</h3>
-    <p>
-        <a href="./lectures/lecture_9.pdf">📄 Презентация</a> • <a href="./notes/notes_class_9.pdf">📝 Заметки</a>
-    </p>
-    <p>Многомерные дискретные случайные величины.</p>
-
-    <h3 class="anchored">Занятие 10</h3>
-    <p>
-        <a href="./lectures/lecture_10.pdf">📄 Презентация</a> • <a href="./notes/class_10_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_10_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Линейные комбинации случайных величин. Ковариация и корреляция.</p>
-
-    <h3 class="anchored">Занятие 11</h3>
-    <p>
-        <a href="./lectures/lecture_11.pdf">📄 Презентация</a> • <a href="./notes/class_11.pdf">📝 Заметки</a>
-    </p>
-    <p>Непрерывные случайные величины.</p>
-
-    <h3 class="anchored">Занятие 12</h3>
-    <p>
-        <a href="./lectures/lecture_12.pdf">📄 Презентация</a> • <a href="./notes/class_12_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_12_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Характеристики непрерывных случайных величин.</p>
-
-    <h3 class="anchored">Занятие 13</h3>
-    <p>
-        <a href="./lectures/lecture_13.pdf">📄 Презентация</a> • <a href="./notes/class_13.pdf">📝 Заметки</a>
-    </p>
-    <p>Нормальное распределение.</p>
-
-    <h3 class="anchored">Занятие 14</h3>
-    <p>
-        <a href="./notes/class_14_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_14_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Нормальное распределение. Практическая сессия.</p>
-
-    <h3 class="anchored">Занятие 15</h3>
-    <p>
-        <a href="./lectures/lecture_15.pdf">📄 Презентация</a> • <a href="./notes/class_15.pdf">📝 Заметки</a>
-    </p>
-    <p>Введение в задачу статистики. Выборочные распределения.</p>
-
-    <h3 class="anchored">Занятие 16</h3>
-    <p>
-        <a href="./lectures/lecture_16.pdf">📄 Презентация</a> • <a href="./notes/class_16.pdf">📝 Заметки</a>
-    </p>
-    <p>Выборочные распределения. Точечные оценки.</p>
-
-    <h3 class="anchored">Занятие 17</h3>
-    <p>
-        <a href="./lectures/lecture_17.pdf">📄 Презентация</a> • <a href="./notes/class_17_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_17_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Выборочные распределения. Точечные оценки. Практическая сессия.</p>
-
-    <h3 class="anchored">Занятие 18</h3>
-    <p>
-        <a href="./lectures/lecture_18.pdf">📄 Презентация</a> • <a href="./notes/class_18.pdf">📝 Заметки</a>
-    </p>
-    <p>Доверительные интервалы I.</p>
-
-    <h3 class="anchored">Занятие 19</h3>
-    <p>
-        <a href="./lectures/lecture_19.pdf">📄 Презентация</a> • <a href="./notes/lecture_19.pdf">📝 Заметки</a> • <a href="https://colab.research.google.com/github/glkarpov/ptms_mds_hse_26/blob/main/notebooks/confidence_intervals_MC_sim.ipynb">🚀 Colab (EN)</a> • <a href="https://colab.research.google.com/github/glkarpov/ptms_mds_hse_26/blob/main/notebooks/confidence_intervals_MC_sim_ru.ipynb">🚀 Colab (RU)</a>
-    </p>
-    <p>Доверительные интервалы II.</p>
-
-    <h3 class="anchored">Занятие 20</h3>
-    <p>
-        <a href="./lectures/lecture_20.pdf">📄 Презентация</a> • <a href="./notes/class_20_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_20_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Доверительные интервалы III.</p>
-
-    <h3 class="anchored">Занятие 21</h3>
-    <p>
-        <a href="./lectures/lecture_21.pdf">📄 Презентация</a> • <a href="./notes/class_21_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_21_group2.pdf">📝 Заметки 2 поток</a> • <a href="https://colab.research.google.com/github/glkarpov/ptms_mds_hse_26/blob/main/notebooks/hyp_test_tutorial.ipynb">🚀 Colab (EN)</a> • <a href="https://colab.research.google.com/github/glkarpov/ptms_mds_hse_26/blob/main/notebooks/hyp_test_tutorial_ru.ipynb">🚀 Colab (RU)</a>
-    </p>
-    <p>Тестирование статистических гипотез I.</p>
-
-    <h3 class="anchored">Занятие 22</h3>
-    <p>
-        <a href="./lectures/lecture_22.pdf">📄 Презентация</a> • <a href="./notes/lecture_22.pdf">📝 Заметки</a>
-    </p>
-    <p>Тестирование статистических гипотез II.</p>
-
-    <h3 class="anchored">Занятие 23</h3>
-    <p>
-        <a href="./lectures/lecture_23.pdf">📄 Презентация</a> • <a href="./notes/class_23_group1.pdf">📝 Заметки 1 поток</a> • <a href="./notes/class_23_group2.pdf">📝 Заметки 2 поток</a>
-    </p>
-    <p>Тестирование статистических гипотез III.</p>
-
-<div class="listing-no-matching d-none">Нет подходящих элементов</div>
-</div>
-<div id="listing-consultations" class="quarto-listing quarto-listing-container-custom">
-
-    <h3 class="anchored">Консультация 1</h3>
-    <p>
-        <a href="./lectures/lecture_add_1.pdf">📄 Презентация</a> • <a href="./notes/notes_add_class_1.pdf">📝 Заметки</a>
-    </p>
-    <p>Дискретные случайные величины. Практическая сессия.</p>
-
-    <h3 class="anchored">Консультация 2</h3>
-    <p>
-        <a href="./lectures/lecture_add_2.pdf">📄 Презентация</a> • <a href="./notes/notes_add_class_2.pdf">📝 Заметки</a>
-    </p>
-    <p>Центральная предельная теорема</p>
-
-<div class="listing-no-matching d-none">Нет подходящих элементов</div>
-</div>
-<div id="listing-homework" class="quarto-listing quarto-listing-container-custom">
-
-    <h3 class="anchored">Self-study problem set 4</h3>
-    <p>
-        <a href="./assignments/ha_topic_4_review.pdf">🌝 Answers and review</a>
-    </p>
-    <p>Дискретные случайные величины. Распределения Бернулли и биномиальное.</p>
-
-    <h3 class="anchored">Self-study problem set 5</h3>
-    <p>
-        <a href="./assignments/ha_topic_5_review.pdf">🌝 Answers and review</a>
-    </p>
-    <p>Многомерные дискретные случайные величины. Ковариация и корреляция.</p>
-
-    <h3 class="anchored">Self-study problem set 8</h3>
-    <p>
-        <a href="./assignments/ha_topic_8_review.pdf">🌝 Answers and review</a>
-    </p>
-    <p>Выборочные распределения.</p>
-
-    <h3 class="anchored">Self-study problem set 9</h3>
-    <p>
-        <a href="./assignments/ha_topic_9_review.pdf">🌝 Answers and review</a>
-    </p>
-    <p>Доверительные интервалы.</p>
-
-    <h3 class="anchored">Self-study problem set 10</h3>
-    <p>
-        <a href="./assignments/ha_topic_10.pdf">🌚 Problem set</a>
-    </p>
-    <p>Тестирование статистических гипотез I.</p>
-
-    <h3 class="anchored">Self-study problem set 11</h3>
-    <p>
-        <a href="./assignments/ha_topic_11.pdf">🌚 Problem set</a>
-    </p>
-    <p>Тестирование статистических гипотез II.</p>
-
-<div class="listing-no-matching d-none">Нет подходящих элементов</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -448,12 +201,12 @@ window.Quarto = {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Скопировано");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Скопировано");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -495,7 +248,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/ptms-mds-26\.glebkarpov\.com");
+        var filterRegex = new RegExp("https:\/\/ptms-fcs\.edu\.glebkarpov\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -827,4 +580,4 @@ window.Quarto = {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/glkarpov/ptms_mds_hse_26/edit/main/program.md" class="toc-action"><i class="bi bi-github"></i>Редактировать страницу</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/glkarpov/ptms_annt_fcs/edit/main/program.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

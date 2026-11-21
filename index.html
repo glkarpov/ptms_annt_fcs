@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.33">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Теория вероятностей и математическая статистика</title>
+<title>Probability Theory and Mathematical Statistics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -55,84 +53,24 @@ ul.task-list li input[type="checkbox"] {
     "s"
   ],
   "language": {
-    "search-no-results-text": "Поиск не дал результатов",
-    "search-matching-documents-text": "Результаты поиска",
-    "search-copy-link-title": "Скопировать ссылку",
-    "search-hide-matches-text": "Скрыть дополнительные результаты",
-    "search-more-match-text": "дополнительный результат в этом документе",
-    "search-more-matches-text": "дополнительных результата(-ов) в этом документе",
-    "search-clear-button-title": "Очистить",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Отменить",
-    "search-submit-button-title": "Найти",
-    "search-label": "Поиск"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-team .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-name','listing-role',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-name","listing-role"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-team'] = new List('listing-team', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="custom.css">
-<meta property="og:title" content="Теория вероятностей и математическая статистика">
-<meta property="og:description" content="">
-<meta name="twitter:title" content="Теория вероятностей и математическая статистика">
-<meta name="twitter:description" content="">
+<meta property="og:title" content="Probability Theory and Mathematical Statistics">
+<meta name="twitter:title" content="Probability Theory and Mathematical Statistics">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -149,7 +87,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Теория вероятностей и математическая статистика</h1>
+<h1 class="title">Probability Theory and Mathematical Statistics</h1>
 </div>
 
 
@@ -166,79 +104,17 @@ window.Quarto = {
 </header>
 
 
-<section id="team" class="level1">
-<h1>Team</h1>
-<div id="listing-team" class="quarto-listing quarto-listing-container-custom">
-<div id="listing-team" class="quarto-listing quarto-listing-container-grid">
-    <div class="list grid quarto-listing-cols-4">
-        
-            <div class="g-col-1">
-                <div class="quarto-grid-item card h-100 card-left borderless">
-                  <div class="card-body post-contents">
-                    <h5 class="no-anchor card-title listing-title" data-anchor-id="team">
-                      Глеб Карпов
-                    </h5>
-                    <p>Лектор</p>
-                  </div>
-                </div>
-              </div>
-        
-            <div class="g-col-1">
-                <div class="quarto-grid-item card h-100 card-left borderless">
-                  <div class="card-body post-contents">
-                    <h5 class="no-anchor card-title listing-title">
-                      София Гафарова
-                    </h5>
-                    <p>Ассистент</p>
-                  </div>
-                </div>
-              </div>
-        
-            <div class="g-col-1">
-                <div class="quarto-grid-item card h-100 card-left borderless">
-                  <div class="card-body post-contents">
-                    <h5 class="no-anchor card-title listing-title">
-                      София Гизатуллина
-                    </h5>
-                    <p>Ассистент</p>
-                  </div>
-                </div>
-              </div>
-        
-            <div class="g-col-1">
-                <div class="quarto-grid-item card h-100 card-left borderless">
-                  <div class="card-body post-contents">
-                    <h5 class="no-anchor card-title listing-title">
-                      Андрей Прохоров
-                    </h5>
-                    <p>Ассистент</p>
-                  </div>
-                </div>
-              </div>
-        
-            <div class="g-col-1">
-                <div class="quarto-grid-item card h-100 card-left borderless">
-                  <div class="card-body post-contents">
-                    <h5 class="no-anchor card-title listing-title">
-                      Дмитрий Александров
-                    </h5>
-                    <p>Ассистент</p>
-                  </div>
-                </div>
-              </div>
-        
-    </div>
-</div>
-<div class="listing-no-matching d-none">Нет подходящих элементов</div>
-</div>
-</section>
-<section id="материалы" class="level1">
-<h1>Материалы</h1>
-<p><a href="./program.html">📚 Перейти к материалам курса</a></p>
+<ul>
+<li><a href="./program.html">Lectures</a></li>
+<li><a href="./homework.html">Problem sets</a></li>
+</ul>
+<!-- To show the team listing on the home page: uncomment the listing above and the block below
+# Team
+:::{#team}
+:::
+-->
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -266,12 +142,12 @@ window.Quarto = {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Скопировано");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Скопировано");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -313,7 +189,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/ptms-mds-26\.glebkarpov\.com");
+        var filterRegex = new RegExp("https:\/\/ptms-fcs\.edu\.glebkarpov\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -645,4 +521,4 @@ window.Quarto = {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/glkarpov/ptms_mds_hse_26/edit/main/index.md" class="toc-action"><i class="bi bi-github"></i>Редактировать страницу</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/glkarpov/ptms_annt_fcs/edit/main/index.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
