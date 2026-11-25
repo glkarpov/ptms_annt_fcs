@@ -1,1 +1,11 @@
-[]
+- title: Вероятностное пространство. Классическая, комбинаторная вероятность.
+  number: 1
+  section: Основы вероятности
+  lectures: /lectures/lecture_1.pdf
+  notes: /notes/lec_1_notes.pdf
+
+- title: Условная вероятность. Независимость событий.
+  number: "2-3"
+  section: Основы вероятности
+  lectures: /lectures/lecture_3.pdf
+  notes: /notes/lec_3_notes.pdf
